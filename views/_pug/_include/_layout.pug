@@ -1,0 +1,17 @@
+doctype html
+html(lang="ja")
+  block head
+    head
+      meta(charset="utf-8")
+      title= foodocker
+      link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block header 
+      header.header 
+        p.logo デフォルトのヘッダー
+    block content
+      .content 
+        p デフォのコンテンツ
+    block footer 
+      footer.footer 
+        p デフォルトのフッター
